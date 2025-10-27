@@ -64,11 +64,28 @@
 
 
 # Task 4
-price = 1500
-discount = 20
+# price = 1500
+# discount = 20
 
-discountPrice = price * discount / 100
-finalPrice = price - discountPrice
+# discountPrice = price * discount / 100
+# finalPrice = price - discountPrice
 
-print('Original Price: ', price)
-print('Discounted Price: ', finalPrice)
+# print('Original Price: ', price)
+# print('Discounted Price: ', finalPrice)
+
+
+# task 5
+x = 10
+print('x =', x)
+
+x *= 2
+print('x *= 2 =', x)
+
+x -= 5
+print('x -= 5 =', x)
+
+x += 5
+print('x += 5 =', x)
+
+x /= 2
+print('x /= 5 =', x)
