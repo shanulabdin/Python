@@ -51,13 +51,24 @@
 # print('Multiplication: ', mult)
 # print('Division: ', div)
 
-# Task 3
-english = 74
-math = 90
-science = 60
+# # Task 3
+# english = 74
+# math = 90
+# science = 60
 
-totalMarks = english + math + science
-avgMarks = totalMarks / 3
+# totalMarks = english + math + science
+# avgMarks = totalMarks / 3
 
-print('Total Marks: ', totalMarks)
-print('Average Marks: ', avgMarks)
+# print('Total Marks: ', totalMarks)
+# print('Average Marks: ', avgMarks)
+
+
+# Task 4
+price = 1500
+discount = 20
+
+discountPrice = price * discount / 100
+finalPrice = price - discountPrice
+
+print('Original Price: ', price)
+print('Discounted Price: ', finalPrice)
