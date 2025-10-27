@@ -30,3 +30,9 @@
 # messageReplace = message.replace('fun', 'powerful')
 # print('Replaced Message:', messageReplace)
 
+# Task 1
+name = ('Shaban Anus')
+age = ('18')
+country = ('Pakistan')
+
+print('My name is', name + ", I'm", age, "years old and I live in", country + '.')
