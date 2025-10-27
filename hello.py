@@ -18,3 +18,13 @@
 
 # sum = num_1 + num_2
 # print("the sum is", sum)
+
+message = "python is fun"
+messageUpperCase = message.upper()
+print('Uppercased Message:', messageUpperCase)
+
+length = len(messageUpperCase)
+print('Length of Message:', length)
+
+messageReplace = message.replace('fun', 'powerful')
+print('Replaced Message:', messageReplace)
