@@ -31,8 +31,22 @@
 # print('Replaced Message:', messageReplace)
 
 # Task 1
-name = ('Shaban Anus')
-age = ('18')
-country = ('Pakistan')
+# name = ('Shaban Anus')
+# age = ('18')
+# city = ('Karachi')
 
-print('My name is', name + ", I'm", age, "years old and I live in", country + '.')
+# print('My name is', name + ", I'm", age, "years old and I live in", city + '.')
+
+# Task 2
+num_1 = 7
+num_2 = 3
+
+add = num_1 + num_2
+sub = num_1 - num_2
+mult = num_1 * num_2
+div = num_1 / num_2
+
+print('Addition: ', add)
+print('Subtraction: ', sub)
+print('Multiplication: ', mult)
+print('Division: ', div)
