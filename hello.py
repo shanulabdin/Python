@@ -13,8 +13,8 @@
 # print(is_student)
 
 # task 3
-num_1 = int(67)
-num_2 = int(33)
+# num_1 = int(67)
+# num_2 = int(33)
 
-sum = num_1 + num_2
-print(sum)
+# sum = num_1 + num_2
+# print("the sum is", sum)
