@@ -38,15 +38,26 @@
 # print('My name is', name + ", I'm", age, "years old and I live in", city + '.')
 
 # Task 2
-num_1 = 7
-num_2 = 3
+# num_1 = 7
+# num_2 = 3
 
-add = num_1 + num_2
-sub = num_1 - num_2
-mult = num_1 * num_2
-div = num_1 / num_2
+# add = num_1 + num_2
+# sub = num_1 - num_2
+# mult = num_1 * num_2
+# div = num_1 / num_2
 
-print('Addition: ', add)
-print('Subtraction: ', sub)
-print('Multiplication: ', mult)
-print('Division: ', div)
+# print('Addition: ', add)
+# print('Subtraction: ', sub)
+# print('Multiplication: ', mult)
+# print('Division: ', div)
+
+# Task 3
+english = 74
+math = 90
+science = 60
+
+totalMarks = english + math + science
+avgMarks = totalMarks / 3
+
+print('Total Marks: ', totalMarks)
+print('Average Marks: ', avgMarks)
