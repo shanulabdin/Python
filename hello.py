@@ -64,28 +64,26 @@
 
 
 # Task 4
-# price = 1500
-# discount = 20
+price = 500
+discount = 10
+discountprice = price * discount / 100
+finalPrice = price - discountprice
 
-# discountPrice = price * discount / 100
-# finalPrice = price - discountPrice
-
-# print('Original Price: ', price)
-# print('Discounted Price: ', finalPrice)
-
+print(discountprice)
+print(finalPrice)
 
 # task 5
-x = 10
-print('x =', x)
+# x = 10
+# print('x =', x)
 
-x *= 2
-print('x *= 2 =', x)
+# x *= 2
+# print('x *= 2 =', x)
 
-x -= 5
-print('x -= 5 =', x)
+# x -= 5
+# print('x -= 5 =', x)
 
-x += 5
-print('x += 5 =', x)
+# x += 5
+# print('x += 5 =', x)
 
-x /= 2
-print('x /= 5 =', x)
+# x /= 2
+# print('x /= 5 =', x)
