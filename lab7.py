@@ -11,7 +11,17 @@ from random import random
 # Random Number
 randomNumber = random()
 
-computerMove = 'heads' if randomNumber < 0.5 else 'tails'
+# Logic for Computer Move
+if randomNumber < 0.5:
+  computerMove = 'heads'
+else:
+  computerMove = 'tails'
+print('Computer Chose:', computerMove.upper())
 
-result = 'you WIN' if userMove == computerMove else 'you LOSE'
+
+# Determining Result
+if userMove == computerMove:
+  result = 'you WIN'
+else:
+  result = 'you LOSE'
 print('Result:', result)
