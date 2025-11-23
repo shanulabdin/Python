@@ -64,13 +64,13 @@
 
 
 # Task 4
-price = 500
-discount = 10
-discountprice = price * discount / 100
-finalPrice = price - discountprice
+# price = 500
+# discount = 10
+# discountprice = price * discount / 100
+# finalPrice = price - discountprice
 
-print(discountprice)
-print(finalPrice)
+# print(discountprice)
+# print(finalPrice)
 
 # task 5
 # x = 10
@@ -87,3 +87,25 @@ print(finalPrice)
 
 # x /= 2
 # print('x /= 5 =', x)
+
+password = "shaban50"
+
+for a in range(3):
+    userpassword = input("Enter your password: ")
+    if password == userpassword:
+        print("correct password")
+        break
+    else:
+        print("account locked")
+
+
+password = "shaban50"
+
+while True:
+    userpassword = input("Enter your password2: ")
+    if password == userpassword:
+        print("correct password")
+        break
+    else:
+        print("account locked")
+        continue
